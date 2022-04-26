@@ -11,6 +11,9 @@
     <!-- MY CSS -->
     <link rel="stylesheet" herf="style.css" />
 
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
     <title>My Portofolio | Addini</title>
   </head>
   <script src="https://unpkg.com/vue@3"></script>
@@ -96,7 +99,7 @@
     </section>
     <!-- Akhir Portofolio -->
 
-    <!-- Artical -->
+    <!-- ArticLE -->
     <section id="" style="background-color: #ebe5e9">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -130,9 +133,9 @@
           </div>
           <div class="col-4">
             <div class="card">
-              <img src="img/sma.jpg" class="card-img-top" alt="SMA" />
+              <img src="img/Sebelah gudang.jpg" class="card-img-top" alt="SMA" />
               <div class="card-body">
-                <p class="card-text text-center">SMAN 1 CIKANDE (2018-2020)</p>
+                <p class="card-text text-center">\</p>
               </div>
             </div>
           </div>
@@ -146,7 +149,40 @@
         ></path>
       </svg>
     </section>
-    <!-- Akhir Artical -->
+    <!-- Start of Vue App -->
+  <script type="module">
+    
+
+    let app = Vue.createApp({
+    data : function() {
+      return {
+        article : {}
+      }
+    },
+    methods : {
+      getArticleData(){
+        axios
+          .get(
+            "https://raw.githubusercontent.com/addinii/tekweb2022/main/assests/article.json"
+          )
+          .then((res) => {
+            // console.log(res.data);
+            this.article = res.data;
+          })
+          .catch((error) => {
+            console.log(error);
+          })
+      }
+    },
+    beforeMount(){
+      this.getArticleData()
+    }
+  })
+  app.mount('#app');
+
+  </script>
+  <!-- End of Vue App -->
+    <!-- Akhir ArticLE -->
 
     <!-- VueJS Script index-->
   <script>

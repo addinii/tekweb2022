@@ -13,10 +13,9 @@
 
     <!-- Axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-bb
+
     <title>My Portofolio | Addini</title>
   </head>
-  <script src="https://unpkg.com/vue@3"></script>
    <body id="Home">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #302e2e">
@@ -115,27 +114,11 @@ bb
           </div>
         </div>
         <div class="row">
-          <div class="col-4">
-            <div class="card" v-for="data in article">
-              <img src="img/vagabond.jpg" class="card-img-top" alt="SD" />
-              <div class="card-body">
-                <p class="card-text text-center">Drama Vagabond merupakan drama Korea bergenre spionase, yang menceritakan tentang seorang pemain pengganti yang harus terlibat dengan konflik tingkat tinggi di negaranya saat berupaya mengungkap misteri kecelakaan pesawat yang ditumpangi keponakannya.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
+          <div class="col-4" v-for="data in article">
             <div class="card">
-              <img src="img/vicenzo.jpg" class="card-img-top" alt="SMP" />
+              <img :src="data.Thumbnail" class="card-img-top" alt="SD" />
               <div class="card-body">
-                <p class="card-text text-center">Vincenzo merupakan drama tentang karakter bernama Vincenzo Cassano, seorang pengacara dan mafia Italia yang seorang keturunan Korea tapi kemudian diadopsi oleh keluarga Italia di usia muda. Ketika kembali ke Korea karena konflik dalam organisasinya di Italia, dia bertemu dengan pengacara Hong Cha Young.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <img src="img/Sebelah gudang.jpg" class="card-img-top" alt="SMA" />
-              <div class="card-body">
-                <p class="card-text text-center">Sepetak tempat yang dapat mengurangi rasa penat</p>
+                <p class="card-text text-center">{{ data.Content }}</p>
               </div>
             </div>
           </div>
@@ -149,6 +132,7 @@ bb
         ></path>
       </svg>
     </section>
+    
     <!-- Start of Vue App -->
   <script type="module">
     
@@ -178,25 +162,14 @@ bb
       this.getArticleData()
     }
   })
-  app.mount('#app');
+  app.mount('#Home');
 
   </script>
   <!-- End of Vue App -->
     <!-- Akhir ArticLE -->
 
-    <!-- VueJS Script index-->
-  <script>
-    let app = Vue.createApp({
-      data(){
-        return{
-          name : ' Addini '
-        }
-      }
-    })
-    app.mount('#app')
-  </script>
-  <!-- Akhir VueJS Script -->
-
+    
+    <script src="https://unpkg.com/vue@3"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

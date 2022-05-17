@@ -19,7 +19,7 @@ Selain melakukan penjualan di store secara langsung, cafe ini juga melakukan pen
 
 ### Gambar Proses Bisnis
 
-![UTS](/img/uts.png)
+![UTS](https://raw.githubusercontent.com/addinii/tekweb2022/main/img/UTS.png)
 
 ### Permasalahan Yang Terjadi
 

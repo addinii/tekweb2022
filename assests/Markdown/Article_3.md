@@ -8,7 +8,7 @@ Proses bisnis utama dari Sebelah Gudang Cafe adalah menyediakan tempat nongkrong
 
 Selain melakukan penjualan di store secara langsung, cafe ini juga melakukan penjualan secara online melalui delivery order by GrabFood. Cafe ini mengusung konsep semi outdoor sehingga sangat nyaman untuk di kunjungi sore atau malam hari. Cafe ini juga memiliki desain yang instagramable dan spot foto yang menarik untuk diabadikan. Letak lokasi yang strategi juga semakin menambah kemudahan customer dalam menuju lokasi. Karena cafe ini cukup ramai di datangi pengunjung setiap weekendnya . Kadang kala kita harus reservasi terlebih dahulu supaya mendapatkan tempat.
 
-## Proses Bisnis Pendukung
+### Proses Bisnis Pendukung
 
 1. Proses perekrutan karyawan, yang dilakukan oleh Manager.
 2. Proses mendapatkan bahan baku yang di lakukan oleh supplier/vendor.

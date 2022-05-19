@@ -5,7 +5,7 @@
         "Author": " Yoo In-sik",
         "Thumbnail": "https://raw.githubusercontent.com/addinii/tekweb2022/main/img/vagabond.jpg",
         "Content": "Drama Vagabond merupakan drama Korea bergenre spionase, yang menceritakan tentang seorang pemain pengganti yang harus terlibat dengan konflik tingkat tinggi di negaranya saat berupaya mengungkap misteri kecelakaan pesawat yang ditumpangi keponakannya.",
-        "markdown": "Article_1.md"
+        "markdown": "Ar1.md"
     },
     {
         "ID": "2",
@@ -13,7 +13,7 @@
         "Author": "Kim Hee-won",
         "Thumbnail": "https://raw.githubusercontent.com/addinii/tekweb2022/main/img/vicenzo.jpg",
         "Content": "Vincenzo merupakan drama tentang karakter bernama Vincenzo Cassano, seorang pengacara dan mafia Italia yang seorang keturunan Korea tapi kemudian diadopsi oleh keluarga Italia di usia muda. Ketika kembali ke Korea karena konflik dalam organisasinya di Italia, dia bertemu dengan pengacara Hong Cha Young.",
-        "markdown": "Article_2.md"
+        "markdown": "Ar2.md"
     },
     {
         "ID": "3",
@@ -21,6 +21,6 @@
         "Author": "Addini Nurul Aisyah",
         "Thumbnail": "https://raw.githubusercontent.com/addinii/tekweb2022/main/img/Sebelah%20gudang.jpg",
         "Content": "Sepetak tempat yang dapat mengurangi rasa penat",
-        "markdown": "Article_3.md"
+        "markdown": "Ar3.md"
     }
 ]

@@ -23,11 +23,4 @@ Selain melakukan penjualan di store secara langsung, cafe ini juga melakukan pen
 
 ### Permasalahan Yang Terjadi
 
-| NO  |              Aktivitas               |               Aktor |                    Permasalahan                     |                                                Akibat |
-| --- | :----------------------------------: | ------------------: | :-------------------------------------------------: | ----------------------------------------------------: |
-| 1   |          Antrian Pemesanan           |     Calon Pelanggan |                   Antrian panjang                   |                                   Padatnya pengunjung |
-| 2   |            Pemilihan Menu            | Kasir dan Pelanggan |                 Menu tidak lengkap                  |                     Bahan baku belum tersedia Kembali |
-| 3   |        Proses Pembuatan Menu         |       Barista, Chef |              Lamanya proses pembuatan               |            Tenaga ahli pengembang produk masih kurang |
-| 4   | Mendatangkan pelanggan di hari biasa |     Calon Pelanggan |     Sedikit pelanggan yang datang di hari biasa     | Padatnya aktivitas pelanggan karena sibuk bekerja dst |
-| 5   |       Konsep cafe semi outdoor       |     Calon Pelanggan |                     Cuaca buruk                     |                         Sedikit pelanggan yang datang |
-| 6   |            Proses promosi            |     Calon Pelanggan | Pelanggan yang datang masih daerah wilayah terdekat |                      Followers instagram masih kurang |
+![UTS](https://raw.githubusercontent.com/addinii/tekweb2022/main/img/NO.3.png)

@@ -1,3 +1,4 @@
+let apiUrl = "https://api.addini.my.id/";
 let app = Vue.createApp({
     data() {
         return {
@@ -8,9 +9,7 @@ let app = Vue.createApp({
     methods: {
         getArticleData() {
             axios
-                .get(
-                    "https://raw.githubusercontent.com/addinii/tekweb2022/main/data.json"
-                )
+                .get(.get(apiUrl+"article"))
                 .then((res) => {
                     this.articles = res.data;
                     console.log(res.data);

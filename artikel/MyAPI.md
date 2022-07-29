@@ -1,67 +1,149 @@
-API POINTS
-Adapun api point yang saya bangun untuk portfolio saya di artikel
+# API POINTS #
+## BIODATA ##
+*Menampilkan data semua pengguna*
+```
+GET: /biodata
 
-Artikel
-Menampilkan seluruh Artikel
-GET: /Artikel
+response:
+
+[
+  {
+    "id"       : "",
+    "avatar"   : "",
+    "nama"     : "",
+    "des"      : "",
+    "about"     : "",
+  },
+  
+]
+```
+*Menampilkan data dengan id tertentu*
+```
+GET: /biodata/[id]
+
+response :
+
+{
+    "id"       : "",
+    "avatar"   : "",
+    "nama"     : "",
+    "des"      : "",
+    "about"     : "",
+}
+```
+*Menambahkan data pengguna*
+```
+POST: /biodata
+
+data:
+{
+    "id"       : "",
+    "avatar"   : "",
+    "nama"     : "",
+    "des"      : "",
+    "about"     : "",
+}
+response:
+
+true    // if success
+false   // if failure
+```
+*Edit data pengguna*
+```
+PUT: /biodata
+
+data:
+{
+    "id"       : "",
+    "avatar"   : "",
+    "nama"     : "",
+    "des"      : "",
+    "about"     : "",
+}
+  
+response:
+true    // if success
+false   // if failure
+```
+*Menghapus data anggota*
+```
+DELETE: /biodata
+
+response:
+true    // if success
+false   // if failure
+```
+## ARTICLE ##
+*Menampilkan data semua article*
+```
+GET: /article
 
 response:
 [
-{
-"id": "",
-"avatar": "",
-"nama": "",
-"des": "",
-"about": ""
-}
-{
-...
-}
+  {
+     "id"           : "",
+     "title"        : "",
+     "author"       : "",
+     "markdown"     : "",
+     "content"      : "",
+     "thumbnail"    : "",
+  }
 ]
-Menampilkan Artikel berdasarkan id
-GET: /Artikel/[id]
+```
+*Menampilkan data article dengan id tertentu*
+```
+GET: /article/[id]
 
 response:
 {
-"id": "",
-"avatar": "",
-"nama": "",
-"des": "",
-"about": ""
+     "id"           : "",
+     "title"        : "",
+     "author"       : "",
+     "markdown"     : "",
+     "content"      : "",
+     "thumbnail"    : "",
 }
-Menambahkan Artikel
-POST: /Artikel
+```
+*Menambahkan article*
+```
+POST: /article
 
 data:
 {
-"id": "",
-"avatar": "",
-"nama": "",
-"des": "",
-"about": ""
+     "id"           : "",
+     "title"        : "",
+     "author"       : "",
+     "markdown"     : "",
+     "content"      : "",
+     "thumbnail"    : "",
 }
-
-response:
-true //if true
-false //if false
-Mengubah Artikel
-PUT: /Artikel
+response :
+true    // if success
+false   // if failure
+```
+*Memperbarui article*
+```
+PUT: /article
 
 data:
 {
-"id": "",
-"avatar": "",
-"nama": "",
-"des": "",
-"about": ""
+     "id"           : "",
+     "title"        : "",
+     "author"       : "",
+     "markdown"     : "",
+     "content"      : "",
+     "thumbnail"    : "",
 }
 
 response:
-true //if true
-false //if false
-Menghapus Artikel
-DELETE: /Artikel
+true    // if success
+false   // if failure
+```
+*Menghapus article*
+```
+DELETE: /article/[id]
 
 response:
-true //if true
-false //if false
+true    // if success
+false   //if failure
+```
